@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="Error" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="NONE" />
   </component>
@@ -32,14 +37,16 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/jarAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lukaslechner/coroutineusecasesonandroid/usecases/coroutines/usecase1/MockApi.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/lukaslechner/coroutineusecasesonandroid/usecases/coroutines/usecase1/MockApi.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lukaslechner/coroutineusecasesonandroid/usecases/coroutines/usecase1/PerformSingleNetworkRequestViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/lukaslechner/coroutineusecasesonandroid/usecases/coroutines/usecase1/PerformSingleNetworkRequestViewModel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lukaslechner/coroutineusecasesonandroid/usecases/coroutines/usecase2/Perform2SequentialNetworkRequestsViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/lukaslechner/coroutineusecasesonandroid/usecases/coroutines/usecase2/Perform2SequentialNetworkRequestsViewModel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lukaslechner/coroutineusecasesonandroid/usecases/coroutines/usecase2/callbacks/SequentialNetworkRequestsCallbacksViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/lukaslechner/coroutineusecasesonandroid/usecases/coroutines/usecase2/callbacks/SequentialNetworkRequestsCallbacksViewModel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lukaslechner/coroutineusecasesonandroid/usecases/coroutines/usecase2/rx/SequentialNetworkRequestsRxViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/lukaslechner/coroutineusecasesonandroid/usecases/coroutines/usecase2/rx/SequentialNetworkRequestsRxViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lukaslechner/coroutineusecasesonandroid/usecases/coroutines/usecase3/PerformNetworkRequestsConcurrentlyViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/lukaslechner/coroutineusecasesonandroid/usecases/coroutines/usecase3/PerformNetworkRequestsConcurrentlyViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lukaslechner/coroutineusecasesonandroid/usecases/coroutines/usecase4/VariableAmountOfNetworkRequestsViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/lukaslechner/coroutineusecasesonandroid/usecases/coroutines/usecase4/VariableAmountOfNetworkRequestsViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lukaslechner/coroutineusecasesonandroid/usecases/coroutines/usecase5/NetworkRequestWithTimeoutViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/lukaslechner/coroutineusecasesonandroid/usecases/coroutines/usecase5/NetworkRequestWithTimeoutViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lukaslechner/coroutineusecasesonandroid/usecases/coroutines/usecase6/RetryNetworkRequestViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/lukaslechner/coroutineusecasesonandroid/usecases/coroutines/usecase6/RetryNetworkRequestViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lukaslechner/coroutineusecasesonandroid/usecases/coroutines/usecase7/TimeoutAndRetryViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/lukaslechner/coroutineusecasesonandroid/usecases/coroutines/usecase7/TimeoutAndRetryViewModel.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +124,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="VirtualDevicePath@C:\Users\Eduardo\.android\avd\Pixel_4_API_29.avd" />
-    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2021-06-15T16:42:40.366053100Z" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2021-06-18T13:27:52.770938600Z" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
@@ -157,7 +164,7 @@
         <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
       </Profilers>
       <option name="DEEP_LINK" value="" />
-      <option name="ACTIVITY_CLASS" value="com.lukaslechner.coroutineusecasesonandroid.usecases.coroutines.usecase2.Perform2SequentialNetworkRequestsActivity" />
+      <option name="ACTIVITY_CLASS" value="com.lukaslechner.coroutineusecasesonandroid.usecases.coroutines.usecase8.RoomAndCoroutinesActivity" />
       <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
       <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
       <method v="2">
@@ -189,22 +196,38 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="124" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1623841053337">
+    <state x="124" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1624022884728">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="124" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680/2880.0.1920.1040@0.0.1280.680" timestamp="1623841053337" />
+    <state x="124" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680/2880.0.1920.1040@0.0.1280.680" timestamp="1624022884728" />
     <state x="432" y="57" key="#com.intellij.ide.util.MemberChooser" timestamp="1623780852316">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="432" y="57" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680/2880.0.1920.1040@0.0.1280.680" timestamp="1623780852316" />
-    <state x="371" y="130" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1623841050076">
+    <state x="371" y="130" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1624022882664">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="371" y="130" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1280.680/2880.0.1920.1040@0.0.1280.680" timestamp="1623841050076" />
+    <state x="371" y="130" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1280.680/2880.0.1920.1040@0.0.1280.680" timestamp="1624022882664" />
     <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1623776035864">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680/2880.0.1920.1040@0.0.1280.680" timestamp="1623776035864" />
+    <state width="1237" height="275" key="GridCell.Tab.0.bottom" timestamp="1624012233445">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="275" key="GridCell.Tab.0.bottom/0.0.1280.680/2880.0.1920.1040@0.0.1280.680" timestamp="1624012233445" />
+    <state width="1237" height="275" key="GridCell.Tab.0.center" timestamp="1624012233444">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="275" key="GridCell.Tab.0.center/0.0.1280.680/2880.0.1920.1040@0.0.1280.680" timestamp="1624012233444" />
+    <state width="1237" height="275" key="GridCell.Tab.0.left" timestamp="1624012233444">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="275" key="GridCell.Tab.0.left/0.0.1280.680/2880.0.1920.1040@0.0.1280.680" timestamp="1624012233444" />
+    <state width="1237" height="275" key="GridCell.Tab.0.right" timestamp="1624012233444">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="275" key="GridCell.Tab.0.right/0.0.1280.680/2880.0.1920.1040@0.0.1280.680" timestamp="1624012233444" />
     <state x="280" y="102" key="MultipleFileMergeDialog" timestamp="1623775679988">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
