@@ -1,8 +1,10 @@
 package com.lukaslechner.coroutineusecasesonandroid.usecases.coroutines.usecase12
 
+import androidx.lifecycle.viewModelScope
 import com.lukaslechner.coroutineusecasesonandroid.base.BaseViewModel
 import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.launch
 import java.math.BigInteger
 import kotlin.system.measureTimeMillis
 
@@ -17,6 +19,9 @@ class CalculationInSeveralCoroutinesViewModel(
     ) {
         uiState.value = UiState.Loading
 
+        viewModelScope.launch(Dispatchers.IO) {
+
+
         var factorialResult = BigInteger.ZERO
         val computationDuration = measureTimeMillis {
             factorialResult =
@@ -26,13 +31,18 @@ class CalculationInSeveralCoroutinesViewModel(
                 )
         }
 
+
         var resultString = ""
         val stringConversionDuration = measureTimeMillis {
-            resultString = convertToString(factorialResult)
+
+                resultString = convertToString(factorialResult)
+
         }
 
-        uiState.value =
+        uiState.postValue(
             UiState.Success(resultString, computationDuration, stringConversionDuration)
+        )
+        }
     }
 
     // TODO: execute on background thread

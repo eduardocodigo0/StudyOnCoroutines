@@ -3,6 +3,9 @@ package com.lukaslechner.coroutineusecasesonandroid.usecases.coroutines.usecase1
 import com.lukaslechner.coroutineusecasesonandroid.mock.AndroidVersion
 import com.lukaslechner.coroutineusecasesonandroid.mock.MockApi
 import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.async
+import kotlinx.coroutines.launch
+import timber.log.Timber
 
 class AndroidVersionRepository(
     private var database: AndroidVersionDao,
@@ -15,10 +18,22 @@ class AndroidVersionRepository(
     }
 
     suspend fun loadAndStoreRemoteAndroidVersions(): List<AndroidVersion> {
-        return emptyList()
+
+        return scope.async {
+            val recentversions = api.getRecentAndroidVersions()
+            Timber.d("Versoes recentes do android foram carregadas")
+
+            recentversions.forEach { ver ->
+                Timber.d("Inseriu -> $ver no banco")
+                database.insert(ver.mapToEntity())
+            }
+            recentversions
+        }.await()
     }
 
     fun clearDatabase() {
-
+        scope.launch {
+            database.clear()
+        }
     }
 }
