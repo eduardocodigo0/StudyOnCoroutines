@@ -36,8 +36,10 @@ class ExceptionHandlingViewModel(
 
 
         viewModelScope.launch(exceptionHandler) {
+            launch {
+                api.getAndroidVersionFeatures(27)
+            }
 
-            api.getAndroidVersionFeatures(27)
         }
     }
 
